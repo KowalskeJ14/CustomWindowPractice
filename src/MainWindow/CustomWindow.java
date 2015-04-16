@@ -40,7 +40,9 @@ public class CustomWindow extends JFrame implements ActionListener {
         
     @Override
     public void actionPerformed(ActionEvent e) {
-
+        String input = txtInput.getText();
+        String msg = "Hello " + input;
+        lblOutput.setText(msg);
     }
     
 }
